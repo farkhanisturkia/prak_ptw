@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Home Page</title>
-</head>
-<body>
-    <p>Hello world</p>
-</body>
-</html>
+@extends('layouts.app')
+
+@section('title','home')
+
+@section('content')
+    <div class="container">
+        selamat datang di tugas praktikum saya
+    </div>
+@endsection
